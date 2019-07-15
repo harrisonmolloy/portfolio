@@ -1,3 +1,3 @@
 window.onload = function() {
-  console.log("window loaded");
+  console.log("Window loaded Up BB");
 };

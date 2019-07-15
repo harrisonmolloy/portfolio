@@ -1,0 +1,13 @@
+
+/*-- default type styling -- */
+html {
+  font-family: courier, sans-serif;
+  font-size: 18px;
+}
+
+/*-- nav positioning --*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
