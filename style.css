@@ -5,9 +5,9 @@ html {
   font-size: 18px;
 }
 
-/*-- nav positioning --*/
-nav {
+/*-- row positioning --*/
+.flexRow {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  margin: 20px;
 }
