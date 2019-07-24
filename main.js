@@ -1,36 +1,23 @@
-window.onload = function() {
-  console.log("Window loaded Up BB");
+window.addEventListener('load', function () {
+  console.log("Window has loaded");
 
-  // slider func
-  let imgName = "/images/Harrison-Knight-Molloy-Portfolio-Slide-"
-  let imgExt = ".jpg"
-  let imgIndex = 0
+  var imgName = "/images/Harrison-Knight-Molloy-Portfolio-Slide-";
+  var imgExt = ".jpg";
+  var imgIndex = 1;
 
-  let slider = document.getElementById("slide-js");
+  let slider = document.getElementById("slider-js")
+  let nextSlideBtn = document.getElementById("nextSlideBtn-js");
 
-  function nextSlide(n) {
-    if (n <= 66) {
-      n++
-      slider.src = imgName + n + imgExt;
-      return console.log("Next slide");
+  function nextSlide() {
+    console.log("Next slide was fired");
+    if (imgIndex == 66) {
+      imgIndex = 1;
+      slider.src = imgName + imgIndex + imgExt;
     } else {
-      n = 1
-      slider.src = imgName + n + imgExt;
-      return console.log("Back to first slide");
+      imgIndex++
+      slider.src = imgName + imgIndex + imgExt;
     }
   }
 
-  function prevSlide(n) {
-    if (n > 1) {
-      n--
-      slider.src = imgName + n + imgExt;
-      return console.log("Prev slide");
-    } else {
-      n = 66
-      slider.src = imgName + n + imgExt;
-      return console.log("loop to last slide");
-    }
-  }
-
-  slider.addEventListener("click", nextSlide(imgIndex));
-};
+  nextSlideBtn.addEventListener("click", nextSlide);
+}, false);
