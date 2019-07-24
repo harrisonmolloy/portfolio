@@ -2,7 +2,7 @@ window.onload = function() {
   console.log("Window loaded Up BB");
 
   // slider func
-  let imgName = "Harrison-Knight-Molloy-Portfolio-Slide-"
+  let imgName = "/images/Harrison-Knight-Molloy-Portfolio-Slide-"
   let imgExt = ".jpg"
   let imgIndex = 0
 
