@@ -11,3 +11,8 @@ html {
   justify-content: space-between;
   margin: 20px;
 }
+
+/*-- Img cropping --*/
+.cover {
+  object-fit: cover;
+}
