@@ -6,25 +6,31 @@ window.onload = function() {
   let imgExt = ".jpg"
   let imgIndex = 0
 
+  let slider = document.getElementByID("slide-js");
+
   function nextSlide(n) {
     if (n <= 66) {
       n++
-      return imgName + n + imgExt;
+      slider.src = imgName + n + imgExt;
+      return console.log("Next slide");
     } else {
-      n = 0
-      return imgName + n + imgExt;
+      n = 1
+      slider.src = imgName + n + imgExt;
+      return console.log("Back to first slide");
     }
   }
 
   function prevSlide(n) {
-    if (n >= 1) {
+    if (n > 1) {
       n--
-      return imgName + n + imgExt;
+      slider.src = imgName + n + imgExt;
+      return console.log("Prev slide");
     } else {
       n = 66
-      return imgName + n + imgExt;
+      slider.src = imgName + n + imgExt;
+      return console.log("loop to last slide");
     }
   }
 
-  
+
 };
