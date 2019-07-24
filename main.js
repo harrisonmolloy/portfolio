@@ -32,5 +32,5 @@ window.onload = function() {
     }
   }
 
-
+  slider.addEventListener("click", nextSlide(imgIndex));
 };
