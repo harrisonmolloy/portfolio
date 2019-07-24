@@ -6,7 +6,7 @@ window.onload = function() {
   let imgExt = ".jpg"
   let imgIndex = 0
 
-  let slider = document.getElementByID("slide-js");
+  let slider = document.getElementById("slide-js");
 
   function nextSlide(n) {
     if (n <= 66) {
