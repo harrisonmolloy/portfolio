@@ -1,16 +1,22 @@
 /*-- default type styling -- */
-html {
+.type {
   font-family: arial, sans-serif;
   font-size: 18px;
 }
 
-/*-- row positioning --*/
-.flexRow {
+.killScroll{
+  overflow: none;
+}
+
+.flex {
   display: flex;
-  justify-content: space-between;
   margin: 20px;
 }
 
-.flexRow-centered {
+.flex-just{
+  justify-content: space-between;
+}
+
+.flex-center{
   justify-content: space-around;
 }
