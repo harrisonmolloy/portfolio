@@ -1,10 +1,10 @@
 /*-- default type styling -- */
-.type {
+.typography {
   font-family: arial, sans-serif;
   font-size: 18px;
 }
 
-.killScroll{
+.kill-scroll{
   overflow: none;
 }
 
