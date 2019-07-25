@@ -10,15 +10,8 @@ html {
 
 .flex {
   display: flex;
-  margin: 20px;
-}
-
-.flex-just{
   justify-content: space-between;
-}
-
-.flex-center{
-  justify-content: space-around;
+  margin: 20px;
 }
 
 img {
