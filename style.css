@@ -15,9 +15,9 @@ html {
 }
 
 img {
-  width: 33vw;
-  height: 66vw;
-  object-fit: cover;
+  width: 66vw;
+  height: 66vh;
+  object-fit: contain;
 }
 
 /*-- default type styling -- */
