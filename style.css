@@ -14,20 +14,3 @@ html {
 .flexRow-centered {
   justify-content: space-around;
 }
-
-/*-- Img cropping --*/
-.cover {
-  object-fit: cover;
-}
-
-.slider-btn {
-  height: 100vh;
-  width: 50%;
-}
-
-.slider-nav {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  top: 20px
-}
