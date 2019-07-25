@@ -1,9 +1,3 @@
-/*-- default type styling -- */
-* {
-  font-family: arial, sans-serif;
-  font-size: 18px;
-}
-
 html {
   overflow: hidden;
 }
@@ -17,4 +11,34 @@ html {
 img {
   width: 30vw;
   margin: 20px auto;
+}
+
+/*-- default type styling -- */
+* {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+}
+
+a{
+  text-decoration; none;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
 }
