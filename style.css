@@ -2,13 +2,13 @@ html {
   overflow: hidden;
 }
 
-.flexExpand {
+.flex-expand {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
 
-.flexCenter {
+.flex-center {
   display: flex;
   justify-content: space-around;
   margin: 20px;
