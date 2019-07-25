@@ -2,21 +2,17 @@ html {
   overflow: hidden;
 }
 
-.flex-expand {
+.flex {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-}
-
 img {
-  width: 66vw;
-  height: 66vh;
+  position: fixed;
+  padding: 48px;
+  width: 100vw;
+  height: 100vh;
   object-fit: contain;
 }
 
