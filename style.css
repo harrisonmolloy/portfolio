@@ -1,10 +1,8 @@
+
+/*-- Positioning -- */
+
 html {
   overflow: hidden;
-}
-
-main {
-  width: 100vw;
-  height: 100vh;
 }
 
 nav {
@@ -13,14 +11,18 @@ nav {
   margin: 20px;
 }
 
-.slide {
-}
+
+
+
 
 /*-- default type styling -- */
 * {
   font-family: arial, sans-serif;
   font-size: 16px;
 }
+
+
+/* Links */
 
 a{
   text-decoration: none;
