@@ -11,21 +11,15 @@ nav {
   margin: 20px;
 }
 
-
-
-
-
 /*-- default type styling -- */
 * {
   font-family: arial, sans-serif;
   font-size: 16px;
 }
 
-
-/* Links */
-
-a{
+a {
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* unvisited link */
